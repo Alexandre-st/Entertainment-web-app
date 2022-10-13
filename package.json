@@ -1,0 +1,13 @@
+{
+  "name": "entertainment-web-app",
+  "description": "",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alexandre-st/Entertainment-web-app.git"
+  },
+  "main": "index.js",
+  "author": "Alexandre-st",
+  "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
