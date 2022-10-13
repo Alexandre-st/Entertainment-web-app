@@ -1,7 +1,11 @@
+
 const App = () => {
-  return ( 
-    <h1>Hello World</h1>
+  return (
+    <main>
+      <h1 className='Hello'>Hello World</h1>
+      <p className='dozff'>Why</p>
+    </main>
   );
 }
- 
+
 export default App;
