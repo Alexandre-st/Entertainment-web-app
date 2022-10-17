@@ -3,6 +3,9 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
+// Routes
+import userRouter from './routes/userRoute.js';
+
 // To setup the project
 const app = express();
 dotenv.config();
@@ -10,6 +13,8 @@ dotenv.config();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
+
+app.use('/user', userRouter);
 
 const PORT = process.env.PORT || 5050;
 
