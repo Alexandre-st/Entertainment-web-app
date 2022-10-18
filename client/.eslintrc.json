@@ -25,6 +25,9 @@
     "prettier/prettier": "off",
     "import/no-named-as-default": "off",
     "import/no-named-as-default-member": "off",
+    "no-param-reassign": "off",
+    "no-unused-expressions": "off",
+    "no-shadow": "off",
     "jsx-quotes": ["warn", "prefer-single"]
   }
 }
