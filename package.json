@@ -1,6 +1,7 @@
 {
   "name": "entertainment-web-app",
   "description": "",
+  "type": "module",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -9,5 +10,10 @@
   "main": "index.js",
   "author": "Alexandre-st",
   "license": "ISC",
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
 }
